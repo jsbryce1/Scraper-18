@@ -1,0 +1,25 @@
+{
+  "name": "news-scraper",
+  "version": "1.0.0",
+  "description": "This is a Node.js application that utilizes Cheerio and a MongoDB back-end to scrape and save NYT articles to a Bootstrap UI.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsbryce1"
+  },
+  "author": "Jared Bryce",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.2.10",
+    "request": "^2.88.0"
+  }
+}
